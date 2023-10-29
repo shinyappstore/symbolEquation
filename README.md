@@ -1,65 +1,7 @@
-# symbol.equation.gpt R package: Powerful user interface to build equations and insert symbols in R documents such as Rmarkdown or Quarto or Shiny applications.<img src="https://symbols-ui.obi.obianom.com/logo.png" align="right" width="200">
+![](8f06fdee-5010-4249-a026-81acfaa0a71e.jpg)
 
-### Official website: https://symbols-ui.obi.obianom.com
+# symbolEquation: Streamlined Symbol Insertion and Equation Creator
 
-### Explainer video: https://www.youtube.com/watch?v=cm6FDzO2uqI
+#### Use app online: __[www.shinyappstore.com/a/symbolEquation](https://shinyappstore.com/a/symbolEquation)__
 
-[![CRAN\_Status\_Badge](https://img.shields.io/badge/RPKG-published-orange)](https://rpkg.net/package/symbol.equation.gpt) <img src="https://rpkg.net/pub-age/symbol.equation.gpt"> [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/symbol.equation.gpt)](https://cran.r-project.org/package=symbol.equation.gpt) [![](https://cranlogs.r-pkg.org/badges/symbol.equation.gpt)](https://cran.r-project.org/package=symbol.equation.gpt) [![](https://cranlogs.r-pkg.org/badges/grand-total/symbol.equation.gpt)](https://cran.r-project.org/package=symbol.equation.gpt)
-[![symbol.equation.gpt pkg](https://rpkg.net/rpkg/symbol.equation.gpt/yellow)](https://rpkg.net/package/symbol.equation.gpt)
-
-
-## Quick example in R 
-
-First, install and load...
-
-```
-install.packages("symbol.equation.gpt")
-
-library("symbol.equation.gpt")
-
-# Launch 1: from Addins
-
-# Go to "Addins" in RStudio, and click on "Symbols and Equations"
-
-# Launch 2: from console
-
-symbol.equation.ui()
-
-# Launch 3: from console
-
-symbol.equation.ui2()
-
-```
-
-#### Live sample 1
-
-![](https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN3.gif)
-
-#### Live sample 2
-
-![](https://symbols-ui.obi.obianom.com/vids/SYMBOLS.EQUATIONS.OPEN2.gif)
-
-
-### Launch User Interface from RStudio Addins
-
-#### User Interface Screenshot - equations
-
-![](https://symbols-ui.obi.obianom.com/assets/equationrpkg1.png)
-
-
-#### User Interface Screenshot - symbols
-
-![](https://symbols-ui.obi.obianom.com/assets/equationrpkg3.png)
-
-#### User Interface Screenshot - smiley
-
-![](https://symbols-ui.obi.obianom.com/assets/equationrpkg2.png)
-
-
-
-
-
-
-# Use on the Web
-
-Available for use online as well  - https://equations.rpkg.net/
+symbolEquation is a application that utilizes the symbol.equation.gpt R package, providing a powerful and user-friendly interface for creating equations and inserting symbols into R documents, such as markdown, Quarto, or Shiny applications. Users can easily construct mathematical equations of varying complexity and then choose to download the equation as a PNG file or convert it into LaTeX format for seamless integration into R scripts. The application also simplifies the process of copying symbol unicode directly into R documents. With a modern and intuitive interface, symbolEquation offers a straightforward solution for equation creation and symbol insertion in R-related tasks. symbolEquation also has a non-shiny web interface located at https://equations.rpkg.net/
